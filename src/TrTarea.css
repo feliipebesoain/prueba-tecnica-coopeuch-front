@@ -1,0 +1,16 @@
+.vigencia-td {
+    text-align: center;
+}
+
+.vigente {
+    color: #1abe02;
+}
+
+.no-vigente {
+    color: #ff2121;
+}
+
+.acciones-container {
+    display: flex;
+    gap: 10px;
+}

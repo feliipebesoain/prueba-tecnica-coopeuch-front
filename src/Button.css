@@ -1,0 +1,29 @@
+button.button {
+    height: fit-content;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+button.button.primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+button.button.secondary {
+    border: 1px var(--primary-color) solid;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+
+button.button.secondary:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+
+
+

@@ -1,0 +1,29 @@
+.tabla-tareas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-tareas td, .tabla-tareas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabla-tareas tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-tareas tr:hover {
+    background-color: #ddd;
+}
+
+.tabla-tareas th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.tabla-tareas .descripcion-row {
+    width: 100%;
+}
