@@ -64,7 +64,6 @@ const App = () => {
 
   return (
     <Container>
-      <p>test</p>
       <Card>
         <div className="body">
           <HeaderTareas onGuardarTarea={crearTarea}/>
