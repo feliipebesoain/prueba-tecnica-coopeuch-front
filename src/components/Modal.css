@@ -1,0 +1,13 @@
+.close-button {
+    float: left;
+    margin-left: 100%;
+    transform: translateX(-20px);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.modal-body {
+    background-color: var(--white-color);
+    padding: 11px;
+    border-radius: 8px;
+}

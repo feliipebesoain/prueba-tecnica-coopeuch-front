@@ -1,13 +1,13 @@
 import Button from "./Button";
 import './SiONoAlerta.css';
 
-const SiONoAlerta = ({text}) => {
+const SiONoAlerta = ({text, onClickSi, onClickNo}) => {
   return (
     <div className='siono-container'>
       <p>{text}</p>
       <div className='buttons-container'>
-        <Button typeButton='primary'>Si</Button>
-        <Button typeButton='secondary'>No</Button>
+        <Button styleButton='primary' onClick={onClickSi}>Si</Button>
+        <Button styleButton='secondary' onClick={onClickNo}>No</Button>
       </div>
 
     </div>

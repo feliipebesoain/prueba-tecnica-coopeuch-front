@@ -9,12 +9,20 @@
 
 .titulo-form {
     padding: 0;
+    align-self: center;
+    margin: 0;
 }
 
 .descripcion-container {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.check-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
 }
 
 .buttons-container {

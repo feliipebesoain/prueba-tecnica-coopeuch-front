@@ -1,0 +1,5 @@
+.loading {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background: var(--white-color);
+}
