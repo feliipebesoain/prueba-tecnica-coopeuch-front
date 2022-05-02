@@ -7,11 +7,6 @@ import {useState} from "react";
 
 const TablaTareas = ({tareas = [], onSaveTareaEditada, onEliminarTarea}) => {
 
-  /*const tareas = [
-    {identificador: 1, descripcion: 'Descripcion', fechaCreacion: '2022/01/1', vigente: true},
-    {identificador: 2, descripcion: 'Descripcion', fechaCreacion: '2022/01/1', vigente: false}
-  ];*/
-
   const [editarTareaModal, setEditarTareaModal] = useState({show: false, tarea: {}});
   const [eliminarTareaModal, setEliminarTareaModal] = useState({show: false, tarea: {}});
 
@@ -29,7 +24,7 @@ const TablaTareas = ({tareas = [], onSaveTareaEditada, onEliminarTarea}) => {
 
 
   if (!tareas.length) {
-    return (<p>No se encontraron tareas. <b>¡Agrega una!</b></p>)
+    return (<p>No se encontraron tareas. <b>¡Crea una!</b></p>)
   }
   return (
     <div>

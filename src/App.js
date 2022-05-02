@@ -21,7 +21,6 @@ const App = () => {
   const status = useSelector(selectStatus);
 
   const listarTareas = () => {
-    console.log('buscando tareas');
     dispatch(buscarTareasFetchThunk())
   }
 
@@ -34,7 +33,6 @@ const App = () => {
   }
 
   const eliminarTarea = (tarea) => {
-    console.log('eliminando')
     dispatch(eliminarTareaFetchThunk(tarea.identificador, listarTareas))
   }
 

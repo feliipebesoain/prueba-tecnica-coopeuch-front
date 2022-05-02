@@ -11,7 +11,7 @@ const HeaderTareas = ({onGuardarTarea}) => {
     setMostrarModal(false);
   }
 
-  const cancelarTarea = (tarea) => {
+  const cancelarCreacion = () => {
     setMostrarModal(false);
   }
   const [mostrarModal, setMostrarModal] = useState(false);
@@ -24,8 +24,8 @@ const HeaderTareas = ({onGuardarTarea}) => {
       </div>
 
       {mostrarModal ?
-        <Modal onClickCloseButton={cancelarTarea}>
-          <FormularioTarea onClickGuardar={guardarTarea} onClickCancelar={cancelarTarea}/>
+        <Modal onClickCloseButton={cancelarCreacion}>
+          <FormularioTarea onClickGuardar={guardarTarea} onClickCancelar={cancelarCreacion}/>
         </Modal>
         : false}
     </div>

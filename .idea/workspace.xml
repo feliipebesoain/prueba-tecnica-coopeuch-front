@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55360304-57fd-4866-adba-7f6335e5f966" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enviroments/enviroment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/tareas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/async.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormularioTarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormularioTarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormularioTarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormularioTarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderTareas.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTareas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeaderTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTareas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SiONoAlerta.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiONoAlerta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SiONoAlerta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiONoAlerta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaTarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TablaTarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TablaTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TablaTareas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrTarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TrTarea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrTarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TrTarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TablaTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TablaTareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/tareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/tareas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651439075445</updated>
       <workItem from="1651439077518" duration="4715000" />
-      <workItem from="1651443994583" duration="19215000" />
+      <workItem from="1651443994583" duration="19516000" />
     </task>
     <servers />
   </component>

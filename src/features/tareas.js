@@ -37,7 +37,6 @@ export const buscarTareasFetchThunk = () => async dispatch => {
 export const nuevaTareaFetchThunk = (tarea, listarTareasDispatch) => async dispatch => {
   dispatch(setPending());
   try {
-    console.log('aca');
     const response = await fetch(urlFetchTareas, {
       method: 'POST',
       body: JSON.stringify(tarea),
