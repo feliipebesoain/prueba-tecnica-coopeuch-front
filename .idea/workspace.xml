@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55360304-57fd-4866-adba-7f6335e5f966" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Alert.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTareas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TablaTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TablaTareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Alert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/tareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/tareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651439075445</updated>
       <workItem from="1651439077518" duration="4715000" />
-      <workItem from="1651443994583" duration="19516000" />
+      <workItem from="1651443994583" duration="24771000" />
     </task>
     <servers />
   </component>

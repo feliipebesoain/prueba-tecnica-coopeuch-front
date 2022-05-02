@@ -12,16 +12,19 @@ import {
   selectStatus,
   selectTareas
 } from "./features/tareas";
-import {useEffect} from "react";
+import {useEffect, useState} from "react";
 import Loading from "./components/Loading";
+import Alert from "./components/Alert";
 
 const App = () => {
   const dispatch = useDispatch();
   const tareas = useSelector(selectTareas);
   const status = useSelector(selectStatus);
 
-  const listarTareas = () => {
-    dispatch(buscarTareasFetchThunk())
+  const [showAlert, setShowAlert] = useState({show: false, type: '', text: ''});
+
+  const listarTareas = (mensaje = '') => {
+    dispatch(buscarTareasFetchThunk(mensaje))
   }
 
   const crearTarea = (tarea) => {
@@ -36,9 +39,28 @@ const App = () => {
     dispatch(eliminarTareaFetchThunk(tarea.identificador, listarTareas))
   }
 
+
+  const closeAlert = () => {
+    setShowAlert({show: false, type: '', text: ''});
+  }
+
+
   useEffect(() => {
     listarTareas();
   }, []);
+
+  /** Cada vez que se cambia el status verifica si hay un mensaje que mostrar,
+   * muestra un mensaje siempre que haya un error o cuando status.message tiene valor */
+  useEffect(() => {
+    if (status.loading !== 'succeded') return
+
+    if (status.error) {
+      setShowAlert({show: true, type: 'error', text: status.error});
+    } else if (status.message) {
+      setShowAlert({show: true, type: 'success', text: status.message});
+    }
+  }, [status]);
+
 
   return (
     <Container>
@@ -53,6 +75,10 @@ const App = () => {
         </div>
       </Card>
       {status.loading === 'pending' ? <Loading/> : ''}
+
+      {showAlert.show ?
+        <Alert texto={showAlert.text} tipo={showAlert.type} onDisappear={closeAlert}/>
+        : null}
     </Container>
   );
 }

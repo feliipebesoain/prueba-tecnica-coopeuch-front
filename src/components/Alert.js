@@ -1,7 +1,13 @@
-const Alert = () => {
+import './Alert.css';
+
+/** tipo: success, error, warning */
+const Alert = ({texto, tipo = 'success', onDisappear, timer = 4000}) => {
+
+  setTimeout(onDisappear, timer);
+
   return (
-    <div>
-      alert
+    <div className={`alert ${tipo}`} onClick={onDisappear}>
+      {texto}
     </div>
   )
 }

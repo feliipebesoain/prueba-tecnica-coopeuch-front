@@ -23,12 +23,13 @@ const [setPending, setFulFilled, setError] = asyncMac(asyncTareas);
 
 const urlFetchTareas = `${enviroment.urlBack}/tareas`
 
-export const buscarTareasFetchThunk = () => async dispatch => {
+/** message: mensaje ingresado al status */
+export const buscarTareasFetchThunk = (message = '') => async dispatch => {
   dispatch(setPending());
   try {
     const response = await fetch(urlFetchTareas);
     const data = await response.json();
-    dispatch(setFulFilled(data))
+    dispatch(setFulFilled(data, message))
   } catch (e) {
     dispatch(setError(e.message))
   }
@@ -43,10 +44,13 @@ export const nuevaTareaFetchThunk = (tarea, listarTareasDispatch) => async dispa
       headers: {'Content-Type': 'application/json'}
     });
     const data = await response.json();
+
+    const mensajeExito = 'Tarea creada con éxito';
+
     if (listarTareasDispatch) {
-      listarTareasDispatch();
+      listarTareasDispatch(mensajeExito);
     } else {
-      dispatch(setFulFilled(data))
+      dispatch(setFulFilled(data, mensajeExito))
     }
   } catch (e) {
     dispatch(setError(e.message))
@@ -62,10 +66,13 @@ export const actualizarTareaFetchThunk = (tarea, listarTareasDispatch) => async 
       headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Methods': '*'}
     });
     const data = await response.json();
+
+    const mensajeExito = 'Tarea actualizada con éxito';
+
     if (listarTareasDispatch) {
-      listarTareasDispatch();
+      listarTareasDispatch(mensajeExito);
     } else {
-      dispatch(setFulFilled(data))
+      dispatch(setFulFilled(data, mensajeExito))
     }
   } catch (e) {
     dispatch(setError(e.message))
@@ -80,10 +87,11 @@ export const eliminarTareaFetchThunk = (identificador, listarTareasDispatch) => 
       headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Methods': '*'}
     });
 
+    const mensajeExito = 'Tarea eliminada con éxito';
     if (listarTareasDispatch) {
-      listarTareasDispatch();
+      listarTareasDispatch(mensajeExito);
     } else {
-      dispatch(setFulFilled(response.ok))
+      dispatch(setFulFilled(response.ok, mensajeExito))
     }
   } catch (e) {
     dispatch(setError(e.message))
