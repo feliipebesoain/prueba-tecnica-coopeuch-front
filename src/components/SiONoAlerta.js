@@ -6,8 +6,8 @@ const SiONoAlerta = ({text, onClickSi, onClickNo}) => {
     <div className='siono-container'>
       <p>{text}</p>
       <div className='buttons-container'>
-        <Button styleButton='primary' onClick={onClickSi}>Si</Button>
-        <Button styleButton='secondary' onClick={onClickNo}>No</Button>
+        <Button styleButton='primary' onClick={onClickSi} data-testid='boton-si'>Si</Button>
+        <Button styleButton='secondary' onClick={onClickNo} data-testid='boton-no'>No</Button>
       </div>
 
     </div>

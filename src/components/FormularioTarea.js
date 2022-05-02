@@ -46,7 +46,8 @@ const FormularioTarea = ({tarea = {}, onClickGuardar, onClickCancelar}) => {
       <h2 className='titulo-form'>{tarea.identificador ? `Editar tarea #${tarea.identificador}` : 'Nueva tarea'}</h2>
       <div className='descripcion-container'>
         <label><span className='color-red'>*</span> Descripción </label>
-        <Input placeholder='Descripción'
+        <Input data-testid='descripcion-input'
+               placeholder='Descripción'
                type='text'
                name='descripcion'
                value={formValues.descripcion}
@@ -55,6 +56,7 @@ const FormularioTarea = ({tarea = {}, onClickGuardar, onClickCancelar}) => {
       <div className='check-container'>
         <Input
           type='checkbox'
+          data-testid='checkbox-vigente'
           onChange={handleChange}
           name='vigente'
           checked={formValues.vigente}/>
@@ -64,8 +66,19 @@ const FormularioTarea = ({tarea = {}, onClickGuardar, onClickCancelar}) => {
       {formValido ? null : <div className='color-red'>* Debes ingresar una descripción</div>}
 
       <div className='buttons-container'>
-        <Button styleButton='primary' type='submit' onClick={guardarTarea}>Guardar</Button>
-        <Button styleButton='secondary' type='button' onClick={onClickCancelar}>Cancelar</Button>
+        <Button
+          data-testid='boton-guardar'
+          styleButton='primary'
+          type='submit'
+          onClick={guardarTarea}>
+          Guardar
+        </Button>
+        <Button data-testid='boton-cancelar'
+                styleButton='secondary'
+                type='button'
+                onClick={onClickCancelar}>
+          Cancelar
+        </Button>
       </div>
     </form>
   )

@@ -12,8 +12,20 @@ const TrTarea = ({tarea, onClickEditbutton, onClickDeleteButton}) => {
       </td>
       <td>
         <div className='acciones-container'>
-          <Button styleButton='secondary' onClick={onClickEditbutton}>Editar</Button>
-          <Button styleButton='secondary' onClick={onClickDeleteButton}>Borrar</Button>
+
+          <Button
+            data-testid='boton-editar'
+            styleButton='secondary'
+            onClick={onClickEditbutton}>
+            Editar
+          </Button>
+
+          <Button
+            data-testid='boton-borrar'
+            styleButton='secondary'
+            onClick={onClickDeleteButton}>
+            Borrar
+          </Button>
         </div>
       </td>
     </tr>

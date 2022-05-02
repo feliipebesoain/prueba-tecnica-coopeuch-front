@@ -28,7 +28,7 @@ const TablaTareas = ({tareas = [], onSaveTareaEditada, onEliminarTarea}) => {
   }
   return (
     <div>
-      <table className='tabla-tareas'>
+      <table className='tabla-tareas' data-testid='tabla-tareas'>
         <thead>
         <tr>
           <th>Identificador</th>

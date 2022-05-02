@@ -11,7 +11,9 @@ const store = configureStore({reducer, middleware: [asyncMiddleware]});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
+  <Provider store={store} data-testid='provider'>
     <App/>
   </Provider>
 );
+
+export default root;

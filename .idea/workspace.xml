@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55360304-57fd-4866-adba-7f6335e5f966" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Alert.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/FormularioTarea.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/HeaderTareas.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/TablaTareas.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/tareas.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/utils.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/tareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/tareas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormularioTarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormularioTarea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SiONoAlerta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SiONoAlerta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TablaTareas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TablaTareas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TrTarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TrTarea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +49,60 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src\tests" />
       <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src\components" />
       <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src\middleware" />
       <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src" />
       <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src\tests" />
       <recent name="C:\Users\SeizaDeveloper\Documents\Proyectos\prueba-tecnica-coopeuch\prueba-tecnica-coopeuch-front\src\components" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.renders learn react link (1)">
+    <configuration name="renders learn react link (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/Alert.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders learn react link (1)" />
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -20,7 +20,11 @@ const HeaderTareas = ({onGuardarTarea}) => {
     <div>
       <div className='header'>
         <h1>Listado de tareas</h1>
-        <Button styleButton='primary' onClick={() => setMostrarModal(true)}>Crear nueva tarea</Button>
+        <Button data-testid='boton-crear'
+                styleButton='primary'
+                onClick={() => setMostrarModal(true)}>
+          Crear nueva tarea
+        </Button>
       </div>
 
       {mostrarModal ?
